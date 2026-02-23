@@ -10,8 +10,8 @@ int factorial(int a)
     // return fact;
     //? RECURSION METHODE 
     if(a == 1 || a == 0) return 1 ; //. when a == 1 ,this line act as "break" and return 1 .
-    int reAns = a*factorial(a-1);//.when a ==1 this can not run 
-    return reAns ;
+    int recAns = a*factorial(a-1);//.when a ==1 this can not run 
+    return recAns ;
 
 }
 
