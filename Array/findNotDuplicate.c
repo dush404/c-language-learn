@@ -7,7 +7,7 @@ int main()
     for (int i = 0; i < 9; i++)
     {
         for(int j = i+1;j<=9;j++){
-            if(num[i]!==num[j]){
+            if(num[i]!=num[j]){
                 printf("%d is the unique number",num[i]);
                 break;
             }
